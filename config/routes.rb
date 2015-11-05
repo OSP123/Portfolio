@@ -2,8 +2,6 @@ PortfolioBlog::Application.routes.draw do
   get "static_pages/blog"
   get "static_pages/work"
   get "main/index"
-  match '/blog' => 'static_pages#blog'
-  match '/work' => 'static_pages#work'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
