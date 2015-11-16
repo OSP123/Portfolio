@@ -1,7 +1,7 @@
 /* =Reset
 -------------------------------------------------------------- */
  
-* {
+/** {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -14,20 +14,20 @@ div{
     margin: 0;
     padding: 0;
     height: 100%;
-}
+}*/
 
 /* =Color
 -------------------------------------------------------------- */
- 
+/* 
 #header{
     background: #cccccc;
-}
+}*/
 
 
 /* =Structure
 -------------------------------------------------------------- */
  
-.wrap{
+/*.wrap{
     max-width: 1140px;
     margin: 0 auto;
     padding: 1em;
@@ -48,7 +48,7 @@ div{
     max-width: 560px;
     margin: 0 auto;
 }
-
+*/
 /* =Media Queries
 -------------------------------------------------------------- */
 .home_page_bar {
