@@ -1,10 +1,10 @@
 PortfolioBlog::Application.routes.draw do
+
+  resources :contacts, only: [:new, :create]
   get "static_pages/blog"
   get "static_pages/work"
   get "static_pages/index"
   get "main/index"
-  match '/contacts',     to: 'contacts#new',             via: 'get'
-  resources "contacts", only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
