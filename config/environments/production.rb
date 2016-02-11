@@ -82,8 +82,8 @@ PortfolioBlog::Application.configure do
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
-    :user_name => 'app47216521@heroku.com',
-    :password => 'exvplzag8741',
+    :user_name => ENV['SENDGRID_USERNAME'],
+    :password => ENV['SENDGRID_PASSWORD'],
     :domain => 'http://omarportfolio.herokuapp.com/',
     :address => 'smtp.sendgrid.net',
     :port => 587,
